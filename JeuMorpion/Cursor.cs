@@ -7,6 +7,7 @@ namespace JeuMorpion.Properties
     {
         public static int[] Navigate(ref int left, ref int top)
         {
+            Console.SetCursorPosition(left, top);
             bool pressSpaceBar = false; 
             while (!pressSpaceBar)
             {
